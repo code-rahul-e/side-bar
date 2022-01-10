@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  max-height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 180px;
+  background: rgb(53, 34, 10);
+  padding: 0px;
+}
+
+.sidebar .logo-content .logo img {
+  margin-top: 25px;
+  margin-left: 24px;
+  height: 20px;
+  width: 20px;
+}
+
+.sidebar ul {
+  margin-top: 30px;
+  position: absolute;
+}
+
+.sidebar ul li {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin: 5px 20px;
+  list-style: none;
+}
+
+.sidebar ul li a {
+  color: rgba(255, 255, 255, 0.418);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0px;
+  font-size: 15px;
+}
+
+.sidebar ul :hover,
+.sidebar ul .active {
+  color: rgb(255, 255, 255);
+}
+
+.sidebar ul li a i {
+  height: 20px;
+  width: 28px;
+  font-size: 20px;
+  padding: 0 px;
+}
+
+.sidebar ul li.dash {
+  height: 1px;
+  width: 20px;
+  border: 1px solid rgba(187, 184, 179, 0.24);
+  margin-left: 25px;
+}
+
+.sidebar .profile-content {
+  display: flex;
+  margin-left: 13px;
+  letter-spacing: 20px;
+  font-weight: 900;
+  font-size: 25px;
+  position: absolute;
+  top: 93%;
+}
+
+.sidebar .profile-content .profile img {
+  font-size: 27px;
+  max-width: 27px;
+  border-radius: 50%;
+}
+
+.sidebar .profile-content .bell,
+.sidebar .profile-content .settings {
+  color: rgba(255, 255, 255, 0.61);
+}
+
+.sidebar .profile-content .bell :hover,
+.sidebar .profile-content .settings :hover {
+  color: rgb(238, 255, 0);
+}
+
+.sidebar .profile-content .summa {
+  height: 30px;
+  width: 1px;
+  border: 1px solid rgba(187, 184, 179, 0.164);
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+.side-photo {
+  margin-top: 25rem;
+}
+
+.dash img {
+  margin-left: 500px;
+  height: 100vh;
+}
+
+.arrow {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  padding: 0px;
+  margin-left: 10.5rem;
+  top: 30px;
+  border-radius: 100%;
+  background-color: azure;
+  box-shadow: 0 0 3px white;
+}
